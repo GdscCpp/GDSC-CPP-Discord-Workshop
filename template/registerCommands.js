@@ -1,12 +1,14 @@
-// Run this every time you add a new command
+// Run this every time you add a new slash command
+// NOTE: this is an older implementation, but is much
+// more straightforward and retains the same functionality
 
 const { REST, Routes } = require("discord.js");
 require("dotenv").config();
 
 const commands = [
   {
-    //name: "name",
-    //description: "what the command does"
+    name: "ping",
+    description: "replies with pong"
   },
 ];
 

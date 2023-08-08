@@ -5,7 +5,7 @@ const ping = require("./ping");
 require("dotenv").config();
 
 //intents represent our permissions, with the current one being
-//the ability to access a Discord Server
+//the ability to access a Discord Server `guild`
 const client = new Client({
   intents: [GatewayIntentBits.Guilds],
 });
